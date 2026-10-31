@@ -46,7 +46,7 @@ In the Supabase dashboard → Edge Functions → Secrets, add:
 
 ## Auth settings to check (Supabase dashboard → Authentication → URL Configuration)
 
-- **Site URL:** the address where the app is hosted, e.g. `https://askpaulpp-lang.github.io/capblueprint/cap-ops/`
+- **Site URL:** the address where the app is hosted, e.g. `https://merchcorphub.github.io/capblueprint/cap-ops/`
 - **Redirect URLs:** add the same address (needed for email confirmation and password-reset links)
 - Supabase's built-in email sender is rate-limited; for real customers, set up custom SMTP (Authentication → Emails).
 
